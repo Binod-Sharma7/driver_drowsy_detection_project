@@ -54,7 +54,7 @@ export default function Team() {
       name: "Gaurav Pant",
       role: "Documentation & Presentation",
       image:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=900&auto=format&fit=crop",
+        "/photo/gp.jpeg",
       description:
         "Handled report writing, proposal preparation, presentation design, and overall project documentation tasks.",
       icon: <FileText size={18} />,
