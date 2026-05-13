@@ -20,7 +20,8 @@ A smart real-time driver safety monitoring system developed using ESP32, IR Eye 
 - Arduino IDE
 
 ## Dashboard Preview
-![Dashboard Screenshot](<img width="1650" height="870" alt="Screenshot_13-5-2026_134554_localhost" src="https://github.com/user-attachments/assets/fb47be7d-7c0a-45ba-8c4c-7aa9769c3d0b" />
+![Dashboard Screenshot](<img width="1751" height="878" alt="image" src="https://github.com/user-attachments/assets/2ec55de9-f03e-49d9-afde-166317777100" />
+
 )
 
 ## System Workflow
