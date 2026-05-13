@@ -21,7 +21,7 @@ export default function Team() {
     name: "Er. Raj Kiran Chhatkuli",
     role: "Project Supervisor",
     image:
-      "public/photo/ch.jpeg",
+      "/photo/ch.jpeg",
     description:
       "Guiding the project development, embedded system implementation, and technical research activities.",
       facebook:"https://www.facebook.com/RaazKeyRun"
@@ -32,7 +32,7 @@ export default function Team() {
       name: "Binod Sharma",
       role: "Frontend & Embedded Developer",
       image:
-        "public/photo/20260116_162959.jpg",
+        "/photo/20260116_162959.jpg",
       description:
         "Worked on React dashboard UI, Firebase integration, realtime monitoring, and ESP32 communication.",
       icon: <Code2 size={18} />,
@@ -43,7 +43,7 @@ export default function Team() {
       name: "Chhatra Raj Phulara",
       role: "Hardware Engineer",
       image:
-        "public/photo/chhatra.jpeg",
+        "/photo/chhatra.jpeg",
       description:
         "Handled circuit design, IR eye blink sensor integration, and embedded hardware implementation.",
       icon: <Cpu size={18} />,
@@ -65,7 +65,7 @@ export default function Team() {
       name: "Gaurab Chand Bohora",
       role: "Research & Documentation",
       image:
-        "/public/photo/gcb.jpeg",
+        "/photo/gcb.jpeg",
       description:
         "Prepared literature review, technical documentation, project reports, and presentation materials for the overall project development.",
       icon: <BookOpen size={18} />,
