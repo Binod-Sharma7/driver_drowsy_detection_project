@@ -6,7 +6,4 @@ export default defineConfig({
   plugins: [react(),tailwindcss()],
   publicDir: 'public',
   base: '/',
-  server: {
-    middlewareMode: true,
-  },
 })
