@@ -67,7 +67,7 @@ export default function Team() {
       image:
         "/photo/gcb.jpeg",
       description:
-        "Prepared literature review, technical documentation, project reports, and presentation materials for the overall project development.",
+        "Realtime Monitoring and Esp 32 communication",
       icon: <BookOpen size={18} />,
       facebook:"https://www.facebook.com/gau.rab.187895"
     },
