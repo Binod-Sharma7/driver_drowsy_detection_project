@@ -1,13 +1,24 @@
-
+// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDhS06ZsH1U2EeCH20ofxRDeyVpegVvJ54",
-  authDomain: "esp32-80300.firebaseapp.com",
-  databaseURL: "https://esp32-80300-default-rtdb.firebaseio.com",
-  projectId: "esp32-80300",
-  storageBucket: "esp32-80300.firebasestorage.app",
-  messagingSenderId: "942016972843",
-  appId: "1:942016972843:web:bec7b8708994332485026e"
+  apiKey: "AIzaSyDuya52W04bvME4H7K-IiDiK4bOwFsYITc",
+  authDomain: "driver-drowsiness-detect-a1ea3.firebaseapp.com",
+  databaseURL: "https://driver-drowsiness-detect-a1ea3-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "driver-drowsiness-detect-a1ea3",
+  storageBucket: "driver-drowsiness-detect-a1ea3.firebasestorage.app",
+  messagingSenderId: "160129505869",
+  appId: "1:160129505869:web:53a9112473e5e5acb31a04",
+  measurementId: "G-4QRLC8GPG9"
 };
 
-export const app = initializeApp(firebaseConfig);
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
+export { app };
