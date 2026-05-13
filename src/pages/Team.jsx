@@ -32,7 +32,7 @@ export default function Team() {
       name: "Binod Sharma",
       role: "Frontend & Embedded Developer",
       image:
-        "/photo/20260116_162959.jpg",
+        "/photo/binod.jpg",
       description:
         "Worked on React dashboard UI, Firebase integration, realtime monitoring, and ESP32 communication.",
       icon: <Code2 size={18} />,
