@@ -14,6 +14,7 @@ import {
   Instagram,
   Facebook,
   BookOpen,
+  CircuitBoard,
 } from "lucide-react";
 
 export default function Team() {
@@ -30,7 +31,7 @@ export default function Team() {
   const members = [
     {
       name: "Binod Sharma",
-      role: "Frontend & Embedded Developer",
+      role: "Frontend & database Developer",
       image:
         "/photo/binod.jpg",
       description:
@@ -47,7 +48,7 @@ export default function Team() {
       description:
         "Handled circuit design, IR eye blink sensor integration,esp32 coding and embedded hardware implementation.",
       icon: <Cpu size={18} />,
-      whatsapp:""
+      whatsapp:"bjbj"
     },
 
     {
@@ -63,12 +64,12 @@ export default function Team() {
 
     {
       name: "Gaurab Chand Bohora",
-      role: "Research & Documentation",
+      role: "Embedded developer",
       image:
         "/photo/gcb.jpeg",
       description:
         "Realtime Monitoring and Esp 32 communication",
-      icon: <BookOpen size={18} />,
+      icon: <CircuitBoard size={18} />,
       facebook:"https://www.facebook.com/gau.rab.187895"
     },
   ];
