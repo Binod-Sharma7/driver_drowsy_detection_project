@@ -35,7 +35,7 @@ export default function Team() {
       image:
         "/photo/binod.jpg",
       description:
-        "Worked on React dashboard UI, Firebase integration, realtime monitoring, and ESP32 communication.",
+        "Worked on React dashboard UI, Firebase integration,and real-time data visualization for monitoring driver drowsiness.",
       icon: <Code2 size={18} />,
       facebook:"https://www.facebook.com/dangerboy.binod.9/"
     },
