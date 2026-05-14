@@ -48,7 +48,7 @@ export default function Team() {
       description:
         "Handled circuit design, IR eye blink sensor integration,esp32 coding and embedded hardware implementation.",
       icon: <Cpu size={18} />,
-      whatsapp:"bjbj"
+      facebook:"https://www.facebook.com/chhatra.raj.5"
     },
 
     {

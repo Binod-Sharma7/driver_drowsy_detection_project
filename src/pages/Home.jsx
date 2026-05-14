@@ -50,8 +50,8 @@ export default function Home() {
   const getConditionText = (s) => {
     if (s === 0) return "Motor OFF • LED OFF • Buzzer OFF";
     if (s === 1) return "Motor ON • LED OFF • Buzzer OFF";
-    if (s === 2) return "Motor ON • LED Blinking • Buzzer Beeping";
-    if (s === 3) return "Motor OFF • LED Blinks Fast • Buzzer Beeps Fast";
+    if (s === 2) return "Motor ON • LED Blinks Fast • Buzzer Beeps Fast";
+    if (s === 3) return "Motor OFF • LED Blinking • Buzzer Beeping";
     return "Unknown State";
   };
 
